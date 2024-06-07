@@ -1,5 +1,3 @@
-# docker build --tag parcels:v1 .
-
 FROM golang:latest AS builder
 
 WORKDIR /parcel
